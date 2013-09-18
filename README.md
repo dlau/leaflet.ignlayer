@@ -9,4 +9,7 @@ Currently supports:
 - Aerial imagery (ortho photos)
 
 Note: There is also this, which appears to be a modification of the leaflet wms layer.
+http://depot.ign.fr/geoportail/api/develop/tech-docs-js/examples/js/geoportalLeaflet.js
+
+
 This is a bit of a simplification.
