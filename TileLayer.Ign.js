@@ -6,7 +6,7 @@ L.TileLayer.Ign = L.TileLayer.extend({
         L.Util.setOptions(this, options);
         this._key = key;
         var urlFormat =
-            'http://gpp3-wxs.ign.fr/{key}/geoportail/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER={layer_name}&STYLE={layer_style}&TILEMATRIXSET=PM&TILEMATRIX={zoom}&TILEROW={y}&TILECOL={x}&FORMAT=image%2F{image_format}';
+            '//wxs.ign.fr/{key}/geoportail/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER={layer_name}&STYLE={layer_style}&TILEMATRIXSET=PM&TILEMATRIX={zoom}&TILEROW={y}&TILECOL={x}&FORMAT=image%2F{image_format}';
         if(options.type == 'Parcel'){
             this._url = urlFormat
                             .replace('{key}', key)
